@@ -1,4 +1,20 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 460px) {
+    
+    /* about section fixes */
+    .chef-img {
+        margin: -30px auto 0;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    /* about section fixes */
+    #about-section .btn-pink {
+        display: none;
+    }
+}
 
 @media only screen and (min-width: 524px) {
     
