@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Whipped - The Dessert Studio</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Crimson+Pro:ital@0;1&family=Montserrat:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="vendors/magnific-popup/magnific-popup.css" />
+
+	<!-- <link rel="stylesheet" href="vendors/OwlCarousel/dist/assets/owl.carousel.min.css" />
+	<link rel="stylesheet" href="vendors/OwlCarousel/dist/assets/owl.theme.default.min.css" /> -->
+
+	<!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> -->
+
+	<link rel="stylesheet" type="text/css" href="resources/css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/media-query.css">
+</head>
+<body>
+	<div class="site-wrap">
+		<nav class="navbar navbar-expand-lg fixed-top bg-white">
+			<div class="container-fluid">
+				<a class="navbar-brand logo d-xl-none d-lg-none d-md-block d-sm-block" href="/">whipped</a>
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="bi bi-list"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
+					<ul class="navbar-nav mb-2 mb-lg-0">
+						<li class="nav-item nav-1"><a class="nav-link text-uppercase letter-spacing-2 active" aria-current="page" href="index.html">Home</a></li>
+						<li class="nav-item nav-2"><a class="nav-link text-uppercase letter-spacing-2" href="#about-section">About</a></li>
+						<li class="nav-item nav-3"><a class="nav-link text-uppercase letter-spacing-2" href="#menu-section">Menu</a></li>
+						<li class="logo-center d-xl-block d-lg-block d-md-none d-sm-none d-none">
+							<a class="navbar-brand logo" href="index.html">whipped</a>
+						</li>
+						<li class="nav-item nav-4"><a class="nav-link text-uppercase letter-spacing-2" href="#gallery-section">Gallery</a></li>
+						<li class="nav-item nav-5"><a class="nav-link text-uppercase letter-spacing-2" href="#events-section">Events</a></li>
+						<li class="nav-item nav-6"><a class="nav-link text-uppercase letter-spacing-2" href="#contact-section">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section class="cover-container text-center" id="header-banner">
+			<div class="header-banner-text text-white">
+				<h2 class="heading mb-4">The Dessert Studio</h2>
+				<div class="sub-heading">
+					<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				 <a href="#contact-section" role="button" class="btn btn-xl btn-primary text-uppercase mt-5 pb_outline-light rounded-0 pb_font-13 letter-spacing-2 p-3">Reserve a table</a>
+			</div>
+		</section>
+
+		<section class="site_section" id="about-section">
+			<div class="container">
+				<h2 class="mb-4 ms-3 text-black section-heading section-heading-rotate">Our Story</h2>
+				<div class="about-box bg-light rounded">
+					<div class="about-box-text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et ligula ullamcorper malesuada proin libero nunc consequat. Aliquam nulla facilisi cras fermentum.</p>
+						<p>Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Amet massa vitae tortor condimentum lacinia quis vel. Accumsan sit amet nulla facilisi morbi. Consequat semper viverra nam libero justo laoreet. </p>
+						<a href="#menu-section" class="btn btn-pink text-uppercase">See our menu <i class="bi bi-arrow-down"></i></a>
+					</div>
+				</div>
+				<img src="resources/img/about_us.jpg" alt="Chef Image" class="d-block rounded image-fluid chef-img">
+			</div>
+		</section>
+
+		<section class="site_section" id="menu-section">
+			<div class="container menu-section-border">
+				<div class="row justify-content-center mb-5">
+					<div class="col-md-10 text-center">
+						<h2 class="mb-2 text-black section-heading">Menu</h2>
+					</div>
+				</div>
+				<div class="row ps-5 pe-5 pb-5">
+					<div class="col">
+						<ul class="nav justify-content-center menu-nav" id="menu-tab">
+							<li class="nav-item">
+								<a class="nav-link text-uppercase letter-spacing-2 active p-3" data-bs-toggle="list" data-bs-target="#cakes" role="tab" aria-controls="home" aria-selected="true">Cakes</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-uppercase letter-spacing-2 p-3" data-bs-toggle="list" data-bs-target="#brownies" role="tab" aria-controls="brownies" aria-selected="false">Brownies</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-uppercase letter-spacing-2 p-3" data-bs-toggle="list" data-bs-target="#tarts" role="tab" aria-controls="tarts" aria-selected="false">Tarts</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-uppercase letter-spacing-2 p-3" data-bs-toggle="list" data-bs-target="#donuts" role="tab" aria-controls="donuts" aria-selected="false">Donuts</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-uppercase letter-spacing-2 p-3" data-bs-toggle="list" data-bs-target="#waffles" role="tab" aria-controls="waffles" aria-selected="false">Waffles</a>
+							</li>
+						</ul>
+
+						<div class="tab-content">
+							<div class="tab-pane fade show active" id="cakes" role="tabpanel">
+								<div class="row">
+									<div class="col-lg-6 col-md-12 col-sm-12">
+										<ul class="our-menu">
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Chocolate Truffle Cake</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>250.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Clasic Vanilla Cake</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>250.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Red Velvet Cake</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>300.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Lemon Blueberry Cake</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>300.00</span></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="col-lg-6 col-md-12 col-sm-12">
+										<ul class="our-menu">
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Slated Caramel Almond Cake</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>350.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Coffee Walnut Cake</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>350.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Classic Newyork Cheesecake</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>400.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Nutella Chocolate Cake</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>350.00</span></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="brownies" role="tabpanel">
+								<div class="row">
+									<div class="col-lg-6 col-md-12 col-sm-12">
+										<ul class="our-menu">
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Classic Chocolate Brownies</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>100.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Chocolate Slated Caramel Brownies</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>150.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Cookie Dough Brownies</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>150.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Biscoff Brownies</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>200.00</span></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="col-lg-6 col-md-12 col-sm-12">
+										<ul class="our-menu">
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Red Velvet Cheesecake Brownies</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>150.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Oreo Cheesecake Brownies</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>150.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Chocolate Cheesecake Brownies</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>150.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Peanut Butter Brownies</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>150.00</span></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="tarts" role="tabpanel">
+								<div class="row">
+									<div class="col-lg-6 col-md-12 col-sm-12">
+										<ul class="our-menu">
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Apple Cinnamon Tart</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>300.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Lemon Curd Tart</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>350.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Caramel Pecan Tart</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>350.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Chocolate Mousse Tart</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>300.00</span></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="col-lg-6 col-md-12 col-sm-12">
+										<ul class="our-menu">
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Tangy Orange Tart</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>300.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Mango Custard Tart</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>300.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Rose Pistachio Tart</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>350.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Almond and Apricot Tart</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>350.00</span></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="donuts" role="tabpanel">
+								<div class="row">
+									<div class="col-lg-6 col-md-12 col-sm-12">
+										<ul class="our-menu">
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Classic Glazed Donut</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>100.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Mocha Truffle Donut</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>100.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Salted Caramel Donut</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>100.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Coffee Walnut Crunch Donut</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>120.00</span></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="col-lg-6 col-md-12 col-sm-12">
+										<ul class="our-menu">
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Brownie Crumble Donut</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>100.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Red Velvet Donut</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>120.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Classic Cinnamon Donut</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>120.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Strawberry Jam Filled Donut</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>100.00</span></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="waffles" role="tabpanel">
+								<div class="row">
+									<div class="col-lg-6 col-md-12 col-sm-12">
+										<ul class="our-menu">
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Classic Belgian Waffle</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>150.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Classic Dark Chocolate Waffle</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>150.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Red Velvet Waffle</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>170.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Chocolate Chip Cookie Waffle</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>150.00</span></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="col-lg-6 col-md-12 col-sm-12">
+										<ul class="our-menu">
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Oats banana Waffle</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>170.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Almond Crunch Waffle</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>200.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col">
+														<h3 class="menu-heading">Mocha Coffee Waffle</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>150.00</span></div>
+												</div>
+											</li>
+											<li>
+												<div class="row">
+													<div class="col col-xs-10">
+														<h3 class="menu-heading">Strawberry Cream Crepes</h3>
+														<p class="mb-0">Lorem ipsum dolor sit amet, consect adipis elit...</p>
+													</div>
+													<div class="col price-col"><span class="price"><sup>&#8377;</sup>150.00</span></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="text-center" id="page-middle-banner">
+			<div class="header-banner-text text-white">
+				<h2 class="heading mb-3">Sweeten Your Life</h2>
+				<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+
+		<section class="site_section" id="gallery-section">
+			<div class="container">
+				<div class="row justify-content-center mb-5">
+					<div class="col-md-10 text-center">
+						<h2 class="mb-2 text-black section-heading">Gallery</h2>
+					</div>
+				</div>
+
+				<div class="gallery-menu mt-2 mb-5">
+					<ul>
+						<li class="filter-button text-uppercase letter-spacing-2 p-3 me-1 ms-3 active" data-filter="all">All</li>
+						<li class="filter-button text-uppercase letter-spacing-2 p-3 me-1 ms-3" data-filter="food">Food</li>
+						<li class="filter-button text-uppercase letter-spacing-2 p-3 me-1 ms-3" data-filter="ambience">Ambience</li>
+					</ul>
+				</div>
+
+				<div class="gallery-grid">
+					<div class="gallery-container food">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/cakes_1.jpg" class="image-popup">
+									<img src="resources/img/cakes_1.jpg" alt="Cake">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container food r-2">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/brownies_1.jpg" class="image-popup">
+									<img src="resources/img/brownies_1.jpg" alt="Brownie">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container food">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/waffle_1.jpg" class="image-popup">
+									<img src="resources/img/waffle_1.jpg" alt="waffle">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container food r-2">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/tart_1.jpg" class="image-popup">
+									<img src="resources/img/tart_1.jpg" alt="Tart">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container ambience r-2">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/ambience_2.jpg" class="image-popup">
+									<img src="resources/img/ambience_2.jpg" alt="Ambience">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container ambience r-2">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/ambience_1.jpg" class="image-popup">
+									<img src="resources/img/ambience_1.jpg" alt="Ambience">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container food r-2">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/brownies_2.jpg" class="image-popup">
+									<img src="resources/img/brownies_2.jpg" alt="Brownies">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container food">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/tart_2.jpg" class="image-popup">
+									<img src="resources/img/tart_2.jpg" alt="Tart">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container food">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/cakes_3.jpg" class="image-popup">
+									<img src="resources/img/cakes_3.jpg" alt="Cake">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container food">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/waffle_2.jpg" class="image-popup">
+									<img src="resources/img/waffle_2.jpg" alt="Waffle">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container ambience r-2">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/ambience_3.jpg" class="image-popup">
+									<img src="resources/img/ambience_3.jpg" alt="Ambience">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container food exp-row">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/donuts_1.jpg" class="image-popup">
+									<img src="resources/img/donuts_1.jpg" alt="Donut">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container food">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/tart_3.jpg" class="image-popup">
+									<img src="resources/img/tart_3.jpg" alt="Tart">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+					<div class="gallery-container food exp-col">
+						<div class="gallery-item">
+							<div class="image">
+								<a href="resources/img/cakes_2.jpg" class="image-popup">
+									<img src="resources/img/cakes_2.jpg" alt="Cake">
+								</a>
+							</div>
+							<div class="zoom-icon"><i class="bi bi-zoom-in"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <div class="site_section" id="testimonials-section">
+			<div class="container">
+				<div class="row justify-content-center mb-5">
+					<div class="col-md-10 text-center">
+						<h2 class="mb-4 text-black section-heading">What People Says...</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-12">
+						<div class="media d-block text-center testimonial_quote">
+							<div class="media-body">
+								<div class="quote text-black">&ldquo;</div>
+								<blockquote class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget velit aliquet sagittis id. Molestie ac feugiat sed lectus vestibulum mattis. Dolor magna eget est lorem ipsum dolor sit.</blockquote>
+								<img class="d-flex text-center mx-auto mb-3 rounded-circle" src="resources/img/person_1.jpg" alt="Person 1">
+								<h3 class="heading">Garry Alexander</h3>
+								<p class="subheading">@garry</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-12">
+						<div class="media d-block text-center testimonial_quote">
+							<div class="media-body">
+								<div class="quote text-black">&ldquo;</div>
+								<blockquote class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget velit aliquet sagittis id. Molestie ac feugiat sed lectus vestibulum mattis. Dolor magna eget est lorem ipsum dolor sit.</blockquote>
+								<img class="d-flex text-center mx-auto mb-3 rounded-circle" src="resources/img/person_2.jpg" alt="Person 2">
+								<h3 class="heading">Deborah Smith</h3>
+								<p class="subheading">@deborah</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-12">
+						<div class="media d-block text-center testimonial_quote">
+							<div class="media-body">
+								<div class="quote text-black">&ldquo;</div>
+								<blockquote class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget velit aliquet sagittis id. Molestie ac feugiat sed lectus vestibulum mattis. Dolor magna eget est lorem ipsum dolor sit.</blockquote>
+								<img class="d-flex text-center mx-auto mb-3 rounded-circle" src="resources/img/person_3.jpg" alt="Person 3">
+								<h3 class="heading">Jamie Robertson</h3>
+								<p class="subheading">@jamie</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+		<div class="site_section" id="testimonials-section">
+			<div class="container">
+				<div class="row justify-content-center mb-5">
+					<div class="col-md-10 text-center">
+						<h2 class="mb-4 text-black section-heading">What People Says...</h2>
+					</div>
+				</div>
+				<div id="carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="media d-block text-center testimonial_quote">
+								<div class="media-body">
+									<div class="quote text-black">&ldquo;</div>
+									<blockquote class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget velit aliquet sagittis id. Molestie ac feugiat sed lectus vestibulum mattis. Dolor magna eget est lorem ipsum dolor sit.</blockquote>
+									<img class="d-flex text-center mx-auto mb-3 rounded-circle" src="resources/img/person_1.jpg" alt="Person 1">
+									<h3 class="heading">Garry Alexander</h3>
+									<p class="subheading">@garry</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="media d-block text-center testimonial_quote">
+								<div class="media-body">
+									<div class="quote text-black">&ldquo;</div>
+									<blockquote class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget velit aliquet sagittis id. Molestie ac feugiat sed lectus vestibulum mattis. Dolor magna eget est lorem ipsum dolor sit.</blockquote>
+									<img class="d-flex text-center mx-auto mb-3 rounded-circle" src="resources/img/person_2.jpg" alt="Person 2">
+									<h3 class="heading">Deborah Smith</h3>
+									<p class="subheading">@deborah</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="media d-block text-center testimonial_quote">
+								<div class="media-body">
+									<div class="quote text-black">&ldquo;</div>
+									<blockquote class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget velit aliquet sagittis id. Molestie ac feugiat sed lectus vestibulum mattis. Dolor magna eget est lorem ipsum dolor sit.</blockquote>
+									<img class="d-flex text-center mx-auto mb-3 rounded-circle" src="resources/img/person_3.jpg" alt="Person 3">
+									<h3 class="heading">Jamie Robertson</h3>
+									<p class="subheading">@jamie</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
+					  <span class="bi bi-arrow-left" aria-hidden="true"></span>
+					  <span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="next">
+					  <span class="bi bi-arrow-right" aria-hidden="true"></span>
+					  <span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<section class="site_section bg-light" id="events-section">
+			<div class="container">
+				<div class="row justify-content-center mb-5">
+					<div class="col-md-10 text-center">
+						<h2 class="mb-2 text-black section-heading">Events</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="card-group">
+						<div class="col-sm-12 col-md-12 col-lg-4 ">
+							<div class="card border-0 mb-5">
+								<img src="resources/img/thanksgiving.jpg" alt="Thanksgiving Image">
+								<div class="card-body">
+									<small class="text-uppercase event-date">December 2nd, 2021</small>
+									<h4 class="card-title"><a href="#">Thanksgiving and Reflections</a></h4>
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-4 ">
+							<div class="card border-0 mb-5">
+								<img src="resources/img/donuts_2.jpg" alt="Donut Image">
+								<div class="card-body">
+									<small class="text-uppercase event-date">December 10th, 2021</small>
+									<h4 class="card-title"><a href="#">Maker of Monday</a></h4>
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-4 ">
+							<div class="card border-0 mb-5">
+								<img src="resources/img/family-kids.jpg" alt="Family Kids">
+								<div class="card-body">
+									<small class="text-uppercase event-date">December 23rd, 2021</small>
+									<h4 class="card-title"><a href="#">Family and Kids Promo</a></h4>
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="site_section pt-0 pb-0" id="contact-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12 pt-5 pb-5">
+						<div class="row justify-content-center mb-5">
+							<div class="col-md-10 text-center">
+								<h2 class="mb-2 text-black section-heading">Write us</h2>
+							</div>
+						</div>
+						<div class="row justify-content-sm-center">
+							<div class="col-md-7">
+								<form action="#">
+									<div class="row">
+										<div class="col-md">
+											<div class="form-group">
+												<label for="name">Name</label>
+												<input type="text" class="form-control p-3 rounded-0" id="name">
+											</div>
+										</div>
+										<div class="col-md">
+											<div class="form-group">
+												<label for="email">Email</label>
+												<input type="text" class="form-control p-3 rounded-0" id="email">
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="message">Message</label>
+										<textarea cols="30" rows="10" class="form-control  p-3 rounded-0" id="message"></textarea>
+									</div>
+									<div class="form-group">
+										<input type="submit" class="btn btn-contact text-uppercase letter-spacing-2 p-3 mt-3 rounded-0" value="Send Message">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 col-sm-12" id="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1835.2961244048806!2d70.10799999228016!3d23.075405883849342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3950b9af1b98128d%3A0x3c2af7ca868ca59e!2sSubway!5e0!3m2!1sen!2sin!4v1641198628301!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="site_section bg-light">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col">
+						<ul class="list-inline">
+							<li class="list-inline-item"><a href="#" class="p-2"><i class="bi bi-facebook"></i></a></li>
+							<li class="list-inline-item"><a href="#" class="p-2"><i class="bi bi-twitter"></i></a></li>
+							<li class="list-inline-item"><a href="#" class="p-2"><i class="bi bi-instagram"></i></a></li>
+							<li class="list-inline-item"><a href="#" class="p-2"><i class="bi bi-snapchat"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+				<div class="col text-center">
+					<p>&copy; 2022 <a href="index.html">Whipped</a>. All Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+	<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script> -->
+	<script src="vendors/js/jquery-3.6.0.js"></script>
+	<!-- <script src="vendors/OwlCarousel/dist/owl.carousel.min.js"></script> -->
+	<script src="resources/js/script.js"></script>
+	<script src="vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script> -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script> -->
+</body>
+</html>
