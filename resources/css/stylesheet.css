@@ -62,6 +62,7 @@ html, body {
 	color: #fff;
 	border-radius: 0;
 	padding: 8px 16px;
+	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 }
 
@@ -116,6 +117,7 @@ nav ul li a.active {
 		padding-bottom: 15px;
 		width: 100%;
 		height: 100vh;
+		-webkit-transition: all 0.4s ease;
 		transition: all 0.4s ease;
 		display: block;
 		background-color: #fff;
@@ -126,6 +128,7 @@ nav ul li a.active {
 		height: 100vh !important;
 		margin-left: 50%;
 		left: 50%;
+		-webkit-transition: all 0.2s ease;
 		transition: all 0.2s ease;
 	}
 	
@@ -142,6 +145,7 @@ nav ul li a.active {
 /************ HEADER SECTION ************/
 
 #header-banner {
+	background-image: -webkit-linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../img/header-banner.jpg") ;
 	background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../img/header-banner.jpg") ;
 	background-size: cover;
 	background-position: center center;
@@ -157,7 +161,8 @@ nav ul li a.active {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
 	min-width: 100%;
 }
 
@@ -193,7 +198,8 @@ nav ul li a.active {
 }
 
 .section-heading-rotate {
-	transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	        transform: rotate(-10deg);
 }
 
 /************ ABOUT SECTION ************/
@@ -293,6 +299,7 @@ nav ul li a.active {
 /************ PAGE MIDDLE BANNER SECTION ************/
 
 #page-middle-banner {
+	background-image: -webkit-linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../img/middle-banner.jpg") ;
 	background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../img/middle-banner.jpg") ;
 	background-size: cover;
 	background-position: center center;
@@ -324,8 +331,10 @@ nav ul li a.active {
 }
 
 .gallery-grid {
+	display: -ms-grid;
 	display: grid;
-	grid-template-columns: repeat(2,1fr);
+	-ms-grid-columns: (1fr)[2];
+	    grid-template-columns: repeat(2,1fr);
 	grid-auto-rows: 200px 200px;
 	grid-gap:10px;
 }
@@ -345,15 +354,20 @@ nav ul li a.active {
 .gallery-item .image img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
-	object-position: 50% 50%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	-o-object-position: 50% 50%;
+	   object-position: 50% 50%;
 	cursor: pointer;
+	-webkit-transition: 0.5s ease-in-out;
 	transition: 0.5s ease-in-out;
 }
 
 .gallery-item:hover .image img {
-	transform: scale(1.3);
-	filter: blur(2.5px);
+	-webkit-transform: scale(1.3);
+	        transform: scale(1.3);
+	-webkit-filter: blur(2.5px);
+	        filter: blur(2.5px);
 }
 
 .gallery-item .zoom-icon {
@@ -361,10 +375,12 @@ nav ul li a.active {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
 	color: #fff;
 	font-size: 2rem;
 	z-index: 4;
+	-webkit-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
 }
 
@@ -373,11 +389,13 @@ nav ul li a.active {
 }
 
 .c-2 {
-	grid-column: span 2;
+	-ms-grid-column: span 2;
+	    grid-column: span 2;
 }
 
 .r-2 {
-	grid-row: span 2;
+	-ms-grid-row: span 2;
+	    grid-row: span 2;
 }
 
 /************ TESTIMONIAL SECTION ************/
@@ -398,7 +416,8 @@ nav ul li a.active {
 	position: absolute;
 	left: 50%;
 	top: 0;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
 }
 
 .testimonial_quote blockquote {
