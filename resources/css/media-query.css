@@ -1,211 +1,217 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 460px) {
-    
-    /* about section fixes */
-    .chef-img {
-        margin: -30px auto 0;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-    }
+	
+	/* about section fixes */
+	.chef-img {
+		margin: -30px auto 0;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+	}
 }
 
 @media only screen and (max-width: 480px) {
-    
-    /* about section fixes */
-    #about-section .btn-pink {
-        display: none;
-    }
+	
+	/* about section fixes */
+	#about-section .btn-pink {
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 524px) {
-    
-    /* about section fixes */
-    #about-section .btn-pink {
-        bottom: -110px;
-    }
+	
+	/* about section fixes */
+	#about-section .btn-pink {
+		bottom: -110px;
+	}
 }
 
 @media only screen and (min-width: 533px) {
-    
-    /* about section fixes */
-    #about-section .btn-pink {
-        bottom: -136px;
-    }
+	
+	/* about section fixes */
+	#about-section .btn-pink {
+		bottom: -136px;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
-    /* about section fixes */
-    #about-section .section-heading {
-        position: relative;
-        top: 40px;
-        left: 0;
-    }
+	
+	/* about section fixes */
+	#about-section .section-heading {
+		position: relative;
+		top: 40px;
+		left: 0;
+	}
 
-    .chef-img {
-        height: 450px;
-        margin: -190px auto 0 calc(56%);
-    }
+	.chef-img {
+		height: 450px;
+		margin: -190px auto 0 calc(56%);
+	}
 
-    .about-box {
-        width: 80%;
-        margin: 0 calc(((100% - 450px) / 2)) 0 auto;
-        padding: 100px 50px 30px;
-    }
+	.about-box {
+		width: 80%;
+		margin: 0 calc(((100% - 450px) / 2)) 0 auto;
+		padding: 100px 50px 30px;
+	}
 
-    .about-box-text {
-        margin-right: 150px;
-    }
+	.about-box-text {
+		margin-right: 150px;
+	}
 
-    #about-section .btn-pink {
-        bottom: -60px;
-    }
+	#about-section .btn-pink {
+		bottom: -60px;
+	}
 
-    .btn-pink {
-        padding: 8px 32px;
-    }
+	.btn-pink {
+		padding: 8px 32px;
+	}
 
-    /* increases map height */
-    #map {
-        height: 400px;
-    }
+	/* increases map height */
+	#map {
+		height: 400px;
+	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    html, body {
-        font-size: 14px;
-    }
+	html, body {
+		font-size: 14px;
+	}
 
-    /* about section fixes */
-    #about-section .section-heading {
-        top: 30px;
-        left: 35px;
-    }
+	/* about section fixes */
+	#about-section .section-heading {
+		top: 30px;
+		left: 35px;
+	}
 
-    .chef-img {
-        height: 500px;
-        margin: -190px auto 0 calc(60%);
-    }
+	.chef-img {
+		height: 500px;
+		margin: -190px auto 0 calc(60%);
+	}
 
-    .about-box {
-        width: 70%;
-        margin: 0 calc(((100% - 500px) / 2)) 0 auto;
-        padding: 100px 50px 30px;
-    }
+	.about-box {
+		width: 70%;
+		margin: 0 calc(((100% - 500px) / 2)) 0 auto;
+		padding: 100px 50px 30px;
+	}
 
-    #about-section .btn-pink {
-        bottom: -80px;
-    }
+	#about-section .btn-pink {
+		bottom: -80px;
+	}
 
-    /* make gallery grid 4 columns */
-    .gallery-grid {
-        -ms-grid-columns: (1fr)[4];
-            grid-template-columns: repeat(4,1fr);
-        grid-auto-rows: 200px 200px;
-    }
+	/* make gallery grid 4 columns */
+	.gallery-grid {
+		-ms-grid-columns: (1fr)[4];
+			grid-template-columns: repeat(4,1fr);
+		grid-auto-rows: 200px 200px;
+	}
 
-    /* fixes event card height */
-    #events-section .card {
-        height: 500px;
-    }
+	/* fixes event card height */
+	#events-section .card {
+		height: 500px;
+	}
 
-    /* fixes carousel buttons in testimonials */
-    #carouselTestimonials {
-        padding: 50px;
-    }
+	/* fixes carousel buttons in testimonials */
+	#carouselTestimonials {
+		padding: 50px;
+	}
 
-    .carousel-control-prev span.bi {
-        left: -25px;
-    }
+	.carousel-control-prev span.bi {
+		left: -25px;
+	}
 
-    .carousel-control-next span.bi {
-        right: -25px;
-    }
+	.carousel-control-next span.bi {
+		right: -25px;
+	}
 
-    /* fixes map height */
-    #map {
-        height: auto;
-    }
+	/* fixes map height */
+	#map {
+		height: auto;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-    html, body {
-        font-size: 15px;
-    }
+	html, body {
+		font-size: 15px;
+	}
 
-    /* about section fixes */
-    #about-section .btn-pink {
-        bottom: -65px;
-    }
+	/* about section fixes */
+	#about-section .btn-pink {
+		bottom: -65px;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    html, body {
-        font-size: 16px;
-    }
+	html, body {
+		font-size: 16px;
+	}
 
-    .header-banner-text h2 {
-        font-size: 4rem;
-    }
-    
-    /* about section fixes */
-    #about-section .section-heading {
-        left: 40px;
-    }
+	.header-banner-text h2 {
+		font-size: 4rem;
+	}
+	
+	/* about section fixes */
+	#about-section .section-heading {
+		left: 40px;
+	}
 
-    .chef-img {
-        height: 600px;
-        margin: -230px calc(((100% - 950px) / 2)) 51px auto;
-    }
-    
-    .about-box {
-        margin: 0 calc(((100% - 590px) / 2)) 0 auto;
-    }
+	.chef-img {
+		height: 600px;
+		margin: -230px calc(((100% - 950px) / 2)) 51px auto;
+	}
+	
+	.about-box {
+		margin: 0 calc(((100% - 590px) / 2)) 0 auto;
+	}
 
-    .about-box-text {
-        margin-right: 210px;
-    }
+	.about-box-text {
+		margin-right: 210px;
+	}
 
-    #about-section .btn-pink {
-        bottom: -75px;
-    }
+	#about-section .btn-pink {
+		bottom: -75px;
+	}
 
-    /* fixes event card height */
-    #events-section .card {
-        height: 550px;
-    }
+	/* fixes event card height */
+	#events-section .card {
+		height: 550px;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1400px) {
-    .header-banner-text {
-        min-width: 70%;
-    }    
-    /* about section fixes */
-    #about-section .section-heading {
-        top: 10px;
-        left: 70px;
-    }
+	.header-banner-text {
+		min-width: 70%;
+	}    
+	/* about section fixes */
+	#about-section .section-heading {
+		top: 10px;
+		left: 70px;
+	}
 
-    .chef-img {
-        margin: -230px calc(((100% - 1000px) / 2)) 51px auto;
-    }
+	.chef-img {
+		margin: -230px calc(((100% - 1000px) / 2)) 51px auto;
+	}
 
-    .about-box {
-        margin: 0 calc(((100% - 750px) / 2)) 0 auto;
-    }
+	.about-box {
+		margin: 0 calc(((100% - 750px) / 2)) 0 auto;
+	}
 
-    .about-box-text {
-        margin-right: 290px;
-    }
+	.about-box-text {
+		margin-right: 290px;
+	}
 
-    #about-section .btn-pink {
-        bottom: -75px;
-    }
+	#about-section .btn-pink {
+		bottom: -75px;
+	}
 }
 
-
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+	#page-middle-banner,
+	#header-banner {
+		background-attachment: scroll;
+	}
+}

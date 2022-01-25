@@ -162,8 +162,9 @@ nav ul li a.active {
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%,-50%);
-	        transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
 	min-width: 100%;
+	margin-top: 30px;
 }
 
 .header-banner-text h2 {
@@ -199,7 +200,7 @@ nav ul li a.active {
 
 .section-heading-rotate {
 	-webkit-transform: rotate(-10deg);
-	        transform: rotate(-10deg);
+			transform: rotate(-10deg);
 }
 
 /************ ABOUT SECTION ************/
@@ -309,6 +310,10 @@ nav ul li a.active {
 	position: relative;
 }
 
+#page-middle-banner .header-banner-text {
+	margin-top: 0;
+}
+
 /************ GALLERY SECTION ************/
 
 .gallery-menu {
@@ -334,7 +339,7 @@ nav ul li a.active {
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-columns: (1fr)[2];
-	    grid-template-columns: repeat(2,1fr);
+		grid-template-columns: repeat(2,1fr);
 	grid-auto-rows: 200px 200px;
 	grid-gap:10px;
 }
@@ -365,9 +370,9 @@ nav ul li a.active {
 
 .gallery-item:hover .image img {
 	-webkit-transform: scale(1.3);
-	        transform: scale(1.3);
+			transform: scale(1.3);
 	-webkit-filter: blur(2.5px);
-	        filter: blur(2.5px);
+			filter: blur(2.5px);
 }
 
 .gallery-item .zoom-icon {
@@ -376,7 +381,7 @@ nav ul li a.active {
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%,-50%);
-	        transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
 	color: #fff;
 	font-size: 2rem;
 	z-index: 4;
@@ -390,12 +395,12 @@ nav ul li a.active {
 
 .c-2 {
 	-ms-grid-column: span 2;
-	    grid-column: span 2;
+		grid-column: span 2;
 }
 
 .r-2 {
 	-ms-grid-row: span 2;
-	    grid-row: span 2;
+		grid-row: span 2;
 }
 
 /************ TESTIMONIAL SECTION ************/
@@ -417,7 +422,7 @@ nav ul li a.active {
 	left: 50%;
 	top: 0;
 	-webkit-transform: translateX(-50%);
-	        transform: translateX(-50%);
+			transform: translateX(-50%);
 }
 
 .testimonial_quote blockquote {
@@ -445,7 +450,7 @@ nav ul li a.active {
 #carouselTestimonials {
 	position: relative;
 	border: 2px solid #fff;
-	padding: 5px;
+	padding: 20px 50px;
 }
 
 .carousel-control-next, .carousel-control-prev {
